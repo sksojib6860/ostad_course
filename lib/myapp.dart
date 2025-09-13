@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'grid_view.dart';
+import 'package:ostad_batch_12/module_11/stack.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,7 +9,7 @@ class MyApp extends StatelessWidget {
     // TODO: implement build
     return MaterialApp(
       //theme: ThemeData(primaryColor: Colors.grey),
-      home: GriedView(),
+      home: Stack1(),
     );
   }
 }
