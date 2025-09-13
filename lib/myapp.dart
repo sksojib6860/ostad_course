@@ -8,7 +8,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return MaterialApp(
-      //theme: ThemeData(primaryColor: Colors.grey),
+      theme: ThemeData(
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.green.shade600,
+          ),
+        ),
+      ),
       home: Stack1(),
     );
   }
